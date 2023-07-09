@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    padding:5px;
+    padding-left: 10px;
+    color:'white';
+    position: relative;
+}
+
+.list{
+    color: white;
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+    position: absolute;
+    right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.list-items{
+    padding-top: 5px;
+    margin:5px;
+    padding-left: 5px;
+    font-size: 1.25em;
+}
+
+.navbar-title{
+    margin:0;
+    color: white;
+}
+
+

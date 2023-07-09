@@ -6,8 +6,12 @@ import { Link } from "react-router-dom";
 
 function Navbar(){
     console.log(__dirname)
-    return (<div className="navbar">
-        <h1 className='navbar-title'>LoduKart </h1><ShoppingCartIcon fontSize="large" sx={{mt:'5px',pl:'5px',color:'white'}}/>
+    return (
+    <div className="navbar">
+        <Link to='/' style={{ textDecoration: 'none' ,color:'inherit',display: 'flex'}}>
+            <h1 className='navbar-title'>LoduKart </h1><ShoppingCartIcon fontSize="large" sx={{mt:'5px',pl:'5px',color:'white'}}/>
+        </Link>
+        
         <ul className="list">
             <Link to='/About' style={{ textDecoration: 'none' ,color:'inherit'}}>
                 <li className="list-items">

@@ -1,0 +1,22 @@
+.not-login-dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    width:50%;
+    height: 50%;
+    margin:5px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    min-width:41.5px;
+    text-align: center;
+    color:white;
+    background-color: #0047ab;
+}
+
+.signup{
+    padding-right: 10px;
+}

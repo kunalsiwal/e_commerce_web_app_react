@@ -1,10 +1,16 @@
 import React from "react";
 import './NotLoginDropDown.css'
+import { Link } from "react-router-dom";
 function NotLoginDropdown(){
     return (
         <div className="not-login-dropdown">
-            <button className="button">Login</button>
-            <button className="button signup">Signup</button>
+            <Link to='/Login' >
+                <button className="button">Login</button>
+            </Link>
+            <Link to='/Signup' >
+                <button className="button signup">Signup</button>
+            </Link>
+            
         </div>
     )
 }

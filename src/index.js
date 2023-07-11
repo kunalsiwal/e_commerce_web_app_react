@@ -8,6 +8,7 @@ import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
+import Login from "./pages/Login/Login";
 
 
 
@@ -28,6 +29,10 @@ import {
     {
         path:'/Distributor',
         element:<Distributor />
+    },
+    {
+      path:'/Login',
+      element:<Login />
     }
   ]);
 

@@ -1,0 +1,34 @@
+
+.signup-page{
+    position: relative;
+    justify-content: center;
+    width: 33%;
+    left:33%;      
+    margin-top: 10%;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 50px;
+    border-width: 2px;
+
+}
+
+.signup-title{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form{
+    
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

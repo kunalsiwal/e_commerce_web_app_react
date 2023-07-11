@@ -4,11 +4,13 @@ import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import Distributor from "./pages/Distributor/Distributor";
+import Signup from "./pages/Signup/Signup";
+import Login from "./pages/Login/Login";
 import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
-import Login from "./pages/Login/Login";
+
 
 
 
@@ -33,6 +35,10 @@ import Login from "./pages/Login/Login";
     {
       path:'/Login',
       element:<Login />
+    },
+    {
+      path:'/Signup',
+      element:<Signup />
     }
   ]);
 

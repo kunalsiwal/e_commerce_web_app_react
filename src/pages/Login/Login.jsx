@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import PasswordInput from '../../components/PasswordInput/PasswordInput';
 import GoogleIcon from '@mui/icons-material/Google';
 import './Login.css'
 
@@ -32,21 +33,21 @@ const Login = () => {
             <h2 className='login-title'>Login</h2>
             <div className='form'>
 
-            <form onSubmit={handleSubmit}>
+            
                 <div className='login-form'>
                 <label className='label'>Username</label>
                 <br></br>
-                <input type="text" placeholder='Enter Username' style={{'marginTop':'5px',padding:'5px',paddingRight:'30px',marginBottom:'10px'}} className='form-input-login' value={username} onChange={handleUsernameChange} />
+                <input type="text" placeholder='Enter Username' style={{'marginTop':'5px',padding:'5px',paddingRight:'30px',marginBottom:'10px',borderRadius:'5px'}} className='form-input-login' value={username} onChange={handleUsernameChange} />
                 </div>
                 <div>
                 <label>Password</label>
                 <br></br>
-                <input type="password" placeholder='Enter Password' style={{'marginTop':'5px',padding:'5px',paddingRight:'30px',marginBottom:'10px'}} value={password} onChange={handlePasswordChange} />
+                <PasswordInput placeholderText='Enter Password' value={password} handleChange={handlePasswordChange}/>
                 </div>
                 
-            </form>
-            <button className='submit-button' style={{'marginTop':'10px',paddingTop:'10px',paddingBottom:'10px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white'}} type="submit">Login</button>
-            <button className='google-login' style={{'marginTop':'10px',paddingTop:'5px',paddingBottom:'5px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white',}} type='submit'><GoogleIcon /></button>
+        
+            <button onClick={handleSubmit} className='submit-button' style={{'marginTop':'10px',paddingTop:'10px',paddingBottom:'10px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white'}} type="submit">Login</button>
+            <button className='google-login' style={{'marginTop':'10px',paddingTop:'5px',paddingBottom:'5px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white'}} type='submit'><GoogleIcon /></button>
             </div>
             
         </div>

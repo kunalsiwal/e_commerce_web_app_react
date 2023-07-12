@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import './Navbar.css'
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SearchIcon from '@mui/icons-material/Search';
 import { Link } from "react-router-dom";
 import NotLoginDropdown from "../Dropdowns/NotLoginDropDown";
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 
 function Navbar(){
     
@@ -20,7 +20,7 @@ function Navbar(){
     <div className="navbar">
         <Link to='/' style={{ textDecoration: 'none' ,color:'inherit',display: 'flex'}}>
         <div className="logo">
-            <h1 className='navbar-title'>LoduKart </h1><ShoppingCartIcon fontSize="large" sx={{mt:'5px',pl:'5px',color:'white'}}/>
+            <h1 className='navbar-title'>GameKart </h1><SportsEsportsIcon fontSize="large" sx={{mt:'5px',pl:'5px',color:'white'}}/>
         </div>
             
         </Link>

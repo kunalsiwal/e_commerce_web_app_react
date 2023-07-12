@@ -1,0 +1,22 @@
+.category-card{
+    position: relative;
+    background-color: black;
+    margin: 5px;
+}
+
+.category-image{
+    max-width: 99%;
+    max-height: auto;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    z-index: -1;
+    opacity: 60%;
+}
+
+.category-name{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left:30%;
+}
+

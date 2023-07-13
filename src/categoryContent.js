@@ -21,7 +21,7 @@ const categoryContent=[
     },
     {   
         categoryId:5,
-        categoryName:'Accessories Games',
+        categoryName:'Accessories',
         backgroundImage:'https://dsawebsitedata.s3.ap-south-1.amazonaws.com/category_images/accessories.jpg'
     },
     {

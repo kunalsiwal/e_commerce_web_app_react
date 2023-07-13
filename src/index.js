@@ -10,6 +10,7 @@ import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
+import Register from "./pages/Distributor/Register/Register";
 
 
 
@@ -39,7 +40,12 @@ import {
     {
       path:'/Signup',
       element:<Signup />
+    },
+    {
+      path:'Distributor/Register',
+      element:<Register />
     }
+
   ]);
 
 ReactDOM.render(

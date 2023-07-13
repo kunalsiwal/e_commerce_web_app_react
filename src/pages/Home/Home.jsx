@@ -7,7 +7,7 @@ function Home(){
     return (
         <div>
             <Navbar />
-            <Categories backgroundImage={'https://wallpaperaccess.com/full/1492592.jpg'}/>
+            <Categories />
             <h1>This is home page</h1>
         </div>
     

@@ -56,7 +56,7 @@ function Navbar(){
         
         {
             userIdClicked?
-            <div>
+            <div style={{zIndex:1}}>
                 <div className="triangle">
 
                 </div>

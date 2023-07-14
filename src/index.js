@@ -6,11 +6,13 @@ import Contact from "./pages/Contact/Contact";
 import Distributor from "./pages/Distributor/Distributor";
 import Signup from "./pages/Signup/Signup";
 import Login from "./pages/Login/Login";
+import Register from "./pages/Distributor/Register/Register";
+import UploadDocs from "./pages/UploadDocs/UploadDocs";
 import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
-import Register from "./pages/Distributor/Register/Register";
+
 
 
 
@@ -43,7 +45,16 @@ import Register from "./pages/Distributor/Register/Register";
     },
     {
       path:'Distributor/Register',
-      element:<Register />
+      children:[
+        {
+          index:true,
+          element:<Register />
+        },{
+        path:'upload',
+        element:<UploadDocs />
+      }
+      
+      ]
     }
 
   ]);

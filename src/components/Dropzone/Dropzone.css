@@ -1,0 +1,31 @@
+.dropzone{
+    
+    position: relative;
+
+}
+
+
+.files-div{
+    display: flex;
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+
+.drag-drop-text{
+    display: flex;
+    position: absolute;
+    top:40%;
+    left: 40%;
+    color: aqua;
+    opacity: 50%;
+}
+
+.dragzone-input{
+    background-color: blue;
+    width: 80%;
+    margin-bottom: 10%; 
+    padding-top: 40%;
+    margin-left: 10%;
+    border-radius: 10px;
+}

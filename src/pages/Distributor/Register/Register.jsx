@@ -53,6 +53,7 @@ function Register(){
       // Reset the form
       setName('');
       setPassword('');
+        
     };
     
     const handleConfirm=(e)=>{
@@ -123,7 +124,7 @@ function Register(){
             </div>
             
         
-        <button onClick={handleSubmit} className='submit-button' style={{'marginTop':'10px',paddingTop:'10px',paddingBottom:'10px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white'}} type="submit">Signup</button>
+        <button onClick={handleSubmit} className='submit-button' style={{'marginTop':'10px',paddingTop:'10px',paddingBottom:'10px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white'}} type="submit">Register</button>
         
         </div>
         

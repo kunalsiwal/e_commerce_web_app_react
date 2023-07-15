@@ -7,7 +7,7 @@ function Categories(props){
 return (
     <div className="categories">
     {categoryContent.map((element)=>{
-        return <CategoryCard key={element.id} backgroundImage={element.backgroundImage} alt={element.categoryName} categoryName={element.categoryName}/>
+        return <CategoryCard key={element.id} description={element.description} backgroundImage={element.backgroundImage} alt={element.categoryName} categoryName={element.categoryName}/>
     })}
     </div>
 )

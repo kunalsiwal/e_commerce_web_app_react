@@ -13,6 +13,14 @@
     opacity: 60%;
 }
 
+.category-description{
+    color: white;
+    position: absolute;
+    top:60%;
+    left: 10%;
+    margin-right: 5%;
+}
+
 .category-name{
     position: absolute;
     color: white;

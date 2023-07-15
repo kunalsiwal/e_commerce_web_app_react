@@ -41,16 +41,18 @@
 }
 
 .search-bar{
+    position: relative;
     display: flex;
     width:40%;
     margin-right: 5px;
-    
 }
 
 #search-input{
     flex-grow: 1;
     border-radius: 10px;
     padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .dropdown{
@@ -80,5 +82,8 @@
 
   }
 
+::placeholder{
+    padding-left: 5px;
+}
 
 

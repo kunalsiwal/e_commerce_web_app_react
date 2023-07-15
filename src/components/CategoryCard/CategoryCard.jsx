@@ -11,8 +11,8 @@ function CategoryCard(props){
     }
     return(
         <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} className="category-card">
-            <img className="category-image" src={props.backgroundImage} alt={props.categoryName}/>
-            <h1 style={isMouseOver?{opacity:'50%'}:null} className="category-name">{props.categoryName}</h1>
+            <img style={isMouseOver?{boxShadow:'10px 10px 10px 10px',opacity:'30%'}:null} className="category-image" src={props.backgroundImage} alt={props.categoryName}/>
+            <h1 className="category-name">{props.categoryName}</h1>
         </div>
     )
 }

@@ -26,7 +26,7 @@ function Navbar(){
         </Link>
         <div className="search-bar">
             <input type='text' placeholder="search category or product" id="search-input"></input>
-            <SearchIcon fontSize="large" sx={{color:'white'}}/>
+            <SearchIcon fontSize="large" sx={{color:'black',position:'absolute',right:'5px',paddingTop:'2.5px'}}/>
         </div>
         
         

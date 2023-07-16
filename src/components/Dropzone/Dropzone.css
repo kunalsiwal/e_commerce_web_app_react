@@ -17,12 +17,12 @@
     position: absolute;
     top:40%;
     left: 40%;
-    color: aqua;
+    color: white;
     opacity: 50%;
 }
 
 .dragzone-input{
-    background-color: blue;
+    background-color: 	#B2BEB5;
     width: 80%;
     margin-bottom: 10%; 
     padding-top: 40%;

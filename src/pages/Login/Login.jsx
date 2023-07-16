@@ -46,8 +46,8 @@ const Login = () => {
                 </div>
                 
         
-            <button onClick={handleSubmit} className='submit-button' style={{'marginTop':'10px',paddingTop:'10px',paddingBottom:'10px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white'}} type="submit">Login</button>
-            <button className='google-login' style={{'marginTop':'10px',paddingTop:'5px',paddingBottom:'5px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white'}} type='submit'><GoogleIcon /></button>
+            <button onClick={handleSubmit} className='submit-button' style={{'marginTop':'10px',paddingTop:'10.5px',paddingBottom:'11px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white'}} type="submit">Login</button>
+            <button className='google-login' style={{'marginTop':'10px',paddingTop:'5px',paddingBottom:'5px',borderRadius:'10px',border:'none',backgroundColor:'black',color:'white'}} type='submit'><GoogleIcon fontSize='medium'/></button>
             </div>
             
         </div>

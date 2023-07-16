@@ -15,7 +15,7 @@ function Dropzone(props){
 
     const handleDragOver=(e)=>{
         setStyles({
-            backgroundColor:'blue'
+            backgroundColor:'#818589'
         })
     }
 
